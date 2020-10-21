@@ -1,0 +1,40 @@
+@import "variables";
+
+.botonboton {
+	font-size: 2.2vh;
+	border-radius: 1vh;
+	background-color: $cool-gray2;
+	&:hover { background-color: $cool-orange;
+	}
+
+}
+
+.formulario{
+	font-family: $font-Montserrat;
+	text-align: center;
+	background-color: #E2DFDF;
+	border: solid 1px #797878;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 1%;
+	font-size: 14px;
+}
+
+@for $i from 1 through 3 {
+  .formularios-#{$i} { width: 5px * $i; }
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $formulario, $color in $formulario {
+   .fondo--#{$formulario} {
+       background-color: $color;
+       width: 100%;
+   }
+}
+.form-group {
+	margin-left: 45vh;
+	margin-right: 45vh;
+	margin-top: 2vh;
+	font-family: $font-Montserrat;
+}
+
