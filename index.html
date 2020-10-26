@@ -73,9 +73,22 @@
 			<div class="col-12">
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  <div class="carousel-indicators">
-				    <input type="Buscador de propiedades" class="buscador">
-	
-				    <a href="propiedades.html"class="buscador2">BUSCAR</a>
+				  	<div class="col-xl-12 col-md-12 col-sm-8 col-xs-8">
+					  	<div class="input-group mb-3">
+						    <div class="input-group-prepend">
+							    <button class="btn btn-outline-secondary" type="button">ALQUILER</button>
+							    <button class="btn btn-outline-secondary" type="button">VENTA</button>
+							</div>
+							<select class="custom-select" id="inputGroupSelect02">
+									    <option selected>Barrio</option>
+									    <option value="1">Caballito</option>
+									    <option value="2">Boedo</option>
+									    <option value="3">Almagro</option>
+									    <option value="3">Otro</option>
+							</select>
+							<button class="botonazo" type="button">BUSCAR</button>
+						</div>
+					</div>
 				  </div>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
@@ -85,7 +98,7 @@
 				      <img src="img/render01.jpg" class="d-block w-100" alt="render1">
 				    </div>
 				    <div class="carousel-item">
-				      <img src="img/render02.jpg" class="d-block w-100" alt="render2">
+				      <img src="img/render02.jpg" class="d-block w-100" alt="render2" height="80%">
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,77 +111,96 @@
 				  </a>
 				</div>
 			</div>
+		</div>
 	</section>
 	<section>
 		<div class="row">
             <div class="col-12">
-				<h1 class="TituloDePaginahome" class="bordesredondeados">ALQUILERES Y VENTAS DESTACADAS </h1>
+				<h1 class="TituloDePaginahome">ALQUILERES Y VENTAS DESTACADAS </h1>
 		  	</div>
         </div>	
 	</section>
-	<section class="home">
+	<section class="fondoindex">
 		 <div class="row">
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" class="mr-auto" style="width: 18rem;">
-                        <img src="img/departamento1.jpg" class="card-img-top" alt="departamento1">
-                        <div class="card-body">
-                          <h5 class="card-title">CASTRO BARROS 1140</h5>
-                          <p class="card-text">Departamento en alquiler en Boedo. <br> 2 ambientes / <strong>$19.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+                	<div class="d-flex justify-content-around">
+                    	<div class="card" style="width: 18rem;">
+                    		<p class="card-arriba">ALQUILER</p>
+	                        <img src="img/departamento1.jpg" class="card-img-top" alt="departamento1">
+	                        <div class="card-body">
+	                          <h5 class="card-title">CASTRO BARROS 1140</h5>
+	                          <p class="card-text">Departamento en alquiler en Boedo. <br> 2 ambientes / <strong>$19.000</strong> </p>
+	                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+	                        </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/departamento2.jpg" class="card-img-top" alt="departamento2">
-                        <div class="card-body">
-                          <h5 class="card-title">AV. SAN JUAN 2300</h5>
-                          <p class="card-text">Departamento en alquiler en Boedo. <br> 2 ambientes / <strong>$22.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+                	<div class="d-flex justify-content-around">
+                    	<div class="card" style="width: 18rem;">
+                    		<p class="card-arriba">ALQUILER</p>
+	                        <img src="img/departamento2.jpg" class="card-img-top" alt="departamento2">
+	                        <div class="card-body">
+	                          <h5 class="card-title">AV. SAN JUAN 2300</h5>
+	                          <p class="card-text">Departamento en alquiler en Boedo. <br> 2 ambientes / <strong>$22.000</strong> </p>
+	                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+	                        </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/departamento3.jpg" class="card-img-top" alt="departamento3">
-                        <div class="card-body">
-                          <h5 class="card-title">AV. TRIUNVIRATO 3200</h5>
-                          <p class="card-text">Departamento en Villa Ortuzar. <br> 1 ambiente / <strong>$17.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
-                        </div>
-                      </div>
+                	<div class="d-flex justify-content-around">
+	                    <div class="card" style="width: 18rem;">
+	                    	<p class="card-arriba">ALQUILER</p>
+	                        <img src="img/departamento3.jpg" class="card-img-top" alt="departamento3">
+	                        <div class="card-body">
+	                          <h5 class="card-title">AV. TRIUNVIRATO 3200</h5>
+	                          <p class="card-text">Departamento en Villa Ortuzar. <br> 1 ambiente / <strong>$17.000</strong> </p>
+	                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+	                        </div>
+	                    </div>
+	                </div>
                 </div>
             </div>
          <div class="row">
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/departamento4.jpg" class="card-img-top" alt="departamento4">
-                        <div class="card-body">
-                          <h5 class="card-title">AV. SAN JUAN 2300</h5>
-                          <p class="card-text">Departamento en venta en Boedo. <br> 2 ambientes / <strong>USD 74.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
-                        </div>
-                      </div>
+                	<div class="d-flex justify-content-around">
+	                    <div class="card" style="width: 18rem;">
+	                    	<p class="card-arriba">VENTA</p>
+		                        <img src="img/departamento4.jpg" class="card-img-top" alt="departamento4">
+		                        <div class="card-body">
+		                          <h5 class="card-title">AV. SAN JUAN 2300</h5>
+		                          <p class="card-text">Departamento en venta en Boedo. <br> 2 ambientes / <strong>USD 74.000</strong> </p>
+		                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+		                        </div>
+	                    </div>
+	                </div>
                 </div>
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/departamento5.jpg" class="card-img-top" alt="departamento5">
-                        <div class="card-body">
-                          <h5 class="card-title">INDEPENDENCIA 1100</h5>
-                          <p class="card-text">Departamento en venta en Almagro. <br> 2 ambientes / <strong>USD 75.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
-                        </div>
-                      </div>
+                	<div class="d-flex justify-content-around">
+	                    <div class="card" style="width: 18rem;">
+	                    	<p class="card-arriba">VENTA</p>
+	                        <img src="img/departamento5.jpg" class="card-img-top" alt="departamento5">
+	                        <div class="card-body">
+	                          <h5 class="card-title">INDEPENDENCIA 1100</h5>
+	                          <p class="card-text">Departamento en venta en Almagro. <br> 2 ambientes / <strong>USD 75.000</strong> </p>
+	                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+	                        </div>
+	                    </div>
+	                </div>
                 </div>
                 <div class="col-xl-4 col-md-8 col-sm-12 col-xs-12">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/departamento6.jpg" class="card-img-top" alt="departamento6">
-                        <div class="card-body">
-                          <h5 class="card-title">MUÑIZ 1000</h5>
-                          <p class="card-text">Departamento en venta en Boedo. <br> 1 ambiente / <strong>USD 60.000</strong> </p>
-                          <a href="propiedades.html" class="btn btn-primary">VER</a>
-                        </div>
-                      </div>
+                	<div class="d-flex justify-content-around">
+	                    <div class="card" style="width: 18rem;">
+	                    	<p class="card-arriba">VENTA</p>
+	                        <img src="img/departamento6.jpg" class="card-img-top" alt="departamento6">
+	                        <div class="card-body">
+	                          <h5 class="card-title">MUÑIZ 1000</h5>
+	                          <p class="card-text">Departamento en venta en Boedo. <br> 1 ambiente / <strong>USD 60.000</strong> </p>
+	                          <a href="propiedades.html" class="btn btn-primary">VER</a>
+	                        </div>
+	                    </div>
+	                </div>
                 </div>
             </div>
 	</section>
@@ -178,19 +210,15 @@
 		<section class="redessociales redessociales--1">
 			<a class="redessociales redessociales--1" href="https://www.facebook.com/Inmobiliaria-Coas-317115818299357" target="_blank">
 				<img src="img/fb.png" alt="pagina de fb" width="70%" height="70%" class="redessociales__imagen">
-				<p class="redessociales__texto">AGREGANOS</p>
 			</a>
 			<a class="redessociales redessociales--1" href="https://www.instagram.com/coasprop/?hl=es-la" target="_blank">
 				<img src="img/insta.png" alt="pagina de instagram" width="70%" height="70%" class="redessociales__imagen">
-				<p class="redessociales__texto">SEGUINOS</p>
 			</a>
 			<a class="redessociales redessociales--1" href="https://ar.pinterest.com/clari_buendi92/boards/" target="_blank">
 				<img src="img/pinterest.png" alt="pagina de pinterest" width="70%" height="70%" class="redessociales__imagen">
-				<p class="redessociales__texto">BUSCANOS</p>
 			</a>
 			<a class="redessociales redessociales--1" href="https://twitter.com/home?lang=es" target="_blank">
 				<img src="img/twitter.png" alt="pagina de twitter" width="80%" height="80%" class="redessociales__imagen">
-				<p class="redessociales__texto">ACOMPAÑANOS</p>
 			</a>
 		</section>
 		  </div>
@@ -201,11 +229,11 @@
 				<div class="card2 bg-dark text-white">
 				  <img src="img/skylinetira.png" class="card-img" alt="skylinetira" height="180vh">
 				  <div class="card-img-overlay">
-				  	<h5 class="card-title">NUESTROS DATOS</h5>
-				    <p class="card-text">Dirección:</p>
-					<p class="card-text">Mail:</p>
-					<p class="card-text">Teléfono:</p>
-					<p class="card-text">Whatsapp:</p></p>
+				  	<h5 class="card-title">COAS PROPIEDADES</h5>
+				    <p class="card-text">Dirección:  &nbsp;&nbsp;Av. San Juan 930</p>
+					<p class="card-text">Mail: &nbsp;&nbsp;coas_prop@hotmail.com</p>
+					<p class="card-text">Teléfono:&nbsp;&nbsp;49236959</p>
+					<p class="card-text">Whatsapp:&nbsp;&nbsp;1151654385</p></p>
 				    <p class="card-text2"><strong> Desde 1967 en el barrio de Boedo, brindando el mejor y más amplio asesoramiento profesional inmobiliario</strong></p>
 				  </div>
 			</div>
