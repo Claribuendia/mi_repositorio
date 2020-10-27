@@ -1,3 +1,15 @@
+
+.botonazo {
+	margin-bottom: 52vh;
+	padding: 0px;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	background-color: $cool-orange;
+	border: solid 1px #C4C3C3;
+	color: $cool-white;
+	width: 14%;
+}
+
 .buscador {
 	opacity: 0.7;
 	margin-left: 22%;
@@ -52,7 +64,7 @@
 
 .card-title {
 	font-family: 'Oswald', sans-serif;
-	color: #848383;
+	color: #DC1B1B;
 }
 
 .card {
@@ -69,21 +81,47 @@
 
 }
 
+.ficha {
+	width: 10%;
+}
+
 .btn {
 	display: flex;
 	justify-content: center;
 	font-family: 'Montserrat', sans-serif;
 	background-color: $cool-gray;
 	border: solid 1px #C4C3C3;
+	width: 90%;
+}
+.btn2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	background-color: $cool-orange;
+	border: solid 1px $cool-orange;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 50%;
+	margin-left: 50%;
 }
 
 .btn:hover {
 	background-color: $cool-orange;
 	border: solid 1px $cool-orange; 
 }
+.btn2:hover {
+	background-color: $cool-gray;
+	border: solid 1px $cool-gray; 
+}
+
+.card{
+	margin-top: 3%;
+	margin-left: 10%;
+}
 
 .card-text {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
 }
 
 .card-text2 {
@@ -97,11 +135,53 @@
 .card-title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	color: $cool-gray2;
 }
 
 .card-body {
 	justify-content: center;
 	font-size: 13px;
+}
+
+.card-arriba {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: $cool-white;
+	text-align: center;
+	background-color: $cool-orange;
+	font-size: 3vh;
+	margin-bottom: 0px;
+}
+
+.card-arriba2 {
+	font-family: 'Montserrat', sans-serif;
+	color: $cool-white;
+	font-weight: bold;
+	text-align: center;
+	background-color: $cool-orange;
+	font-size: 2.5vh;
+	padding: 0.3vh;
+	position: absolute; 
+	width: 50%;
+	margin-top: 5%;
+}
+
+.card-abajo {
+	font-family: 'Montserrat', sans-serif;
+	color: $cool-white;
+	text-align: center;
+	background-color: $cool-gray2;
+	font-size: 2.5vh;
+	padding: 0.3vh;
+	position: absolute; 
+	width: 100%;
+	margin-top: 59%;
+	opacity: 0.9;
+}
+
+#padre {
+  position: relative;    
+  display: inline-block; 
 }
 
 nav.menu ul{
@@ -160,13 +240,13 @@ nav ul li a.menuLink {
 
 
 .titulos{
-	color: $cool-orange;
+	color: $cool-gray;
 	font-family: 'Oswald', sans-serif;
 	margin-left: 40px;
 }
 
 .titulofooter{
-	color: $cool-orange;
+	color: $cool-gray;
 	font-family: 'Oswald', sans-serif;
 	}
 
@@ -183,7 +263,7 @@ nav ul li a.menuLink {
 /* Block */
 .redessociales{
 	display: flex;
-	background-color: $cool-orange;
+	background-color: $cool-gray;
 	height: 5vh;
 	flex-direction: row;
 	align-items: center;
@@ -269,16 +349,21 @@ nav ul li a.menuLink {
 	margin-bottom: 0px;
 }
 
+.textoServicios{
+	font-size: 1.8vh;
+	font-family: 'Montserrat', sans-serif;
+	color: #5F5F5F;
+
+}
 
 /* Object */
 .ParrafoPrincipal{
-	color: #282727;
+	color: #969595;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
 	margin: 20px auto 20px auto;
 	padding: 20px 55px 20px 55px; 
 	text-align: justify;
-
 }
 
 /* Element */
@@ -347,8 +432,9 @@ div ol li{
 }
 
 section.servicios {
-	background-image: url("../img/fondo.png");
+	background-image: url("../img/render01.jpg");
 	padding: 50px;
+	background-size: cover;
 }
 section.servicios ul li{
 	list-style: none;
@@ -460,11 +546,48 @@ li.numeros::before {
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	display: block;
-	font-size: 20px;
-	width: 25%;
+	font-size: 120%;
 	text-align: center;
 	background-color: #D9D9D9;
-	margin-left: 37%;
+	margin-left: 30%;
+	margin-right: 30%;
 	border: 3px solid #C2C2C2;
 }
 
+.fondoindex {
+	margin-top: 14vh;
+	margin-bottom: 14vh;
+}
+
+.input-group-prepend {
+	margin-bottom: 52vh;
+}
+
+.nosotros{
+	color: #2F2E2E;
+}
+
+#socios {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5%;
+} 
+
+
+@media screen and (max-width: 500px) {
+  #socios {
+	display: flex;
+	flex-direction: column;
+	margin: 15%;
+    } 
+}
+
+@media screen and (min-width: 500px) {
+  #socios {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5%;
+  } 
+}
