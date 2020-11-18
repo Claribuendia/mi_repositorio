@@ -1,40 +1,28 @@
 @import "variables";
 
-.botonboton {
-	font-size: 2.2vh;
-	border-radius: 1vh;
-	background-color: $cool-gray2;
-	&:hover { background-color: $cool-orange;
+
+@media screen and (max-width: 500px) {
+
+	.formulario {
+		font-family: $font-Montserrat;
+		background-color: rgba(255, 255, 255, .6);
+		border: solid 1px #B5B5B5;
+		padding: 2%;
+		color: #626060;
 	}
 
 }
 
-.formulario{
-	font-family: $font-Montserrat;
-	text-align: center;
-	background-color: #E2DFDF;
-	border: solid 1px #797878;
-	margin-left: 25%;
-	margin-right: 25%;
-	padding: 1%;
-	font-size: 14px;
-}
+@media screen and (min-width: 500px) {
 
-@for $i from 1 through 3 {
-  .formularios-#{$i} { width: 5px * $i; }
-}
-
-/*Creamos el bucle para usar los valores del mapa*/
-@each $formulario, $color in $formulario {
-   .fondo--#{$formulario} {
-       background-color: $color;
-       width: 100%;
-   }
-}
-.form-group {
-	margin-left: 45vh;
-	margin-right: 45vh;
-	margin-top: 2vh;
-	font-family: $font-Montserrat;
-}
+	.formulario {
+		font-family: $font-Montserrat;
+		background-color: rgba(255, 255, 255, .6);
+		border: solid 1px #B5B5B5;
+		margin-left: 15%;
+		margin-right: 15%;
+		padding: 1%;
+		color: #626060;
+	}
+}	
 
